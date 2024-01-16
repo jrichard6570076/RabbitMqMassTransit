@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqMassTransit", "RabbitMqMassTransit\RabbitMqMassTransit.csproj", "{A470E85B-24AE-435A-B7B8-27DC0E11A6A6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedModels", "SharedModels\SharedModels.shproj", "{2741C89D-4865-449A-BC12-FD58696A7EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A470E85B-24AE-435A-B7B8-27DC0E11A6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A470E85B-24AE-435A-B7B8-27DC0E11A6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A470E85B-24AE-435A-B7B8-27DC0E11A6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A470E85B-24AE-435A-B7B8-27DC0E11A6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6E313A0-FE7E-42A1-B3B9-7EF880FAD3C0}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedModels\SharedModels.projitems*{2741c89d-4865-449a-bc12-fd58696a7ee4}*SharedItemsImports = 13
+		SharedModels\SharedModels.projitems*{a470e85b-24ae-435a-b7b8-27dc0e11a6a6}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
